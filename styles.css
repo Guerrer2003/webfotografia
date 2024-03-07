@@ -1,0 +1,107 @@
+.contenedor-central {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 80vh; /* Ajusta el contenedor al alto de la ventana */
+}
+
+
+
+.contenedor-imagenes img {
+    width: 350px; /* Establecemos el mismo ancho para todas las imágenes */
+    height: auto; /* Permitimos que la altura se ajuste automáticamente para mantener la proporción */
+    margin-right: 60px; /* Espacio entre las imágenes */
+    
+}
+
+.texto-arriba,
+.texto-abajo {
+    margin: 10px 0; /* Ajusta el margen entre el texto y la imagen */
+}
+
+.enlace-color{
+    color: black;
+    text-decoration: none; /* Quita la línea subrayada del enlace */
+}
+
+
+.titulo-contacto {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.li-contacto {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+
+.lista-horizontal {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+    font-family: 'Times New Roman', Times, serif; /* Cambia la fuente del texto */
+}
+
+.lista-horizontal li {
+    display: inline-block; /* Muestra los elementos uno al lado del otro */
+    margin-right: 60px; /* Añade un espacio entre los elementos */
+}
+
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+header img {
+    width: 200px; /* Define el ancho de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #181515;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    background-color: #181515;
+    color: antiquewhite;
+}
+
+.boton-enviar {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #000000;
+}
+
